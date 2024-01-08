@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.landing-h1 {
+  @apply text-center md:text-start text-3xl md:text-4xl xl:text-5xl;
+}
+.landing-p {
+  @apply text-center md:text-start  text-sm md:text-base opacity-70;
+}
+.landing-text {
+  @apply flex justify-center items-center px-8 md:px-16 lg:px-36 py-4;
+}
