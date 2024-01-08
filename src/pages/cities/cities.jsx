@@ -26,11 +26,7 @@ export default function Cities() {
         justifyContent="center"
         spacing={4}
       >
-        <img
-          src="../../public/assets/imgs/city.png"
-          alt="city"
-          className="h-16"
-        />
+        <img src="../assets/imgs/city.png" alt="city" className="h-16" />
         <Typography variant="h3"> CITY SELECTION </Typography>
       </Stack>
       <Router.Form method="post">

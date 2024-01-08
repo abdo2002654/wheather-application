@@ -10,11 +10,7 @@ export default function Header() {
     <AppBar position="sticky">
       <Toolbar className="xs:p-4 md:p-2">
         <Link>
-          <img
-            src="../../public/assets/imgs/cloud-moon.png"
-            alt="logo"
-            className="h-8"
-          />
+          <img src="../assets/imgs/cloud-moon.png" alt="logo" className="h-8" />
         </Link>
         <Typography variant="h6" className=" flex-1 px-2 font-bold">
           WEATHER APP

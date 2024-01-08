@@ -20,7 +20,7 @@ export default function Landing() {
       </Grid>
       <Grid item className="flex justify-center items-center" xs={12} md={6}>
         <img
-          src="../../public/assets/imgs/thunderstorm.png"
+          src="../assets/imgs/thunderstorm.png"
           alt="logo"
           className="h-[300px] lg:h-[400px]"
         />

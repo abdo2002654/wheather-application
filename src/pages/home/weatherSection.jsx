@@ -6,7 +6,7 @@ import React from "react";
 export default function WeatherSection({ data }) {
   console.log(data);
   const icon = data.weather[0].icon;
-  const imgUrl = `../../../public/assets/imgs/${imgKeys[icon]}.png`; // weather img
+  const imgUrl = `../../assets/imgs/${imgKeys[icon]}.png`; // weather img
   const weather = data.weather[0].description; // weather status
   const temprature = (data.main.temp - 273).toFixed(2); // celsius
   const pressure = data.main.pressure; // hpa
